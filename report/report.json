@@ -1,0 +1,1088 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "privathaftpflicht-calculator-and-tariff-search;verify-the-dsl-calculator",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify the DSL calculator",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4422622624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the base url",
+            "match": {
+              "location": "support/steps/general.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1804355875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I wait for '2000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2002057083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I hover on the '#uc-btn-accept-banner' element",
+            "match": {
+              "location": "support/steps/general.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23777292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the '#uc-btn-accept-banner' element",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103488458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I wait for '2000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1999934375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I open the url 'privathaftpflicht/'",
+            "match": {
+              "location": "support/steps/general.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 450882665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I wait for '2000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2002686792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I enter '29' in input field '[name=\"age\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294651915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on the '.calculator-form [type=\"submit\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59746707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I wait until '[class=\"layout-column\"]' element is visible",
+            "match": {
+              "location": "support/steps/general.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1432849792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "The '[class=\"layout-column\"]' element is visible in viewport",
+            "match": {
+              "location": "support/steps/general.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20673541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I enter '09.01.1994' in input field '[placeholder=\"TT.MM.JJJJ\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1174586917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I enter '13088' in input field '#prestep_postcode' element",
+            "match": {
+              "location": "support/steps/general.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 675890749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I wait for '1000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1002356582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on the '[class=\"button\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80953915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I wait for the page navigation to finish",
+            "match": {
+              "location": "support/steps/general.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27279958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I wait until '[class=\"product-container\"]' element is visible",
+            "match": {
+              "location": "support/steps/general.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14853449083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "The '[class=\"product-container\"]' element is visible in viewport",
+            "match": {
+              "location": "support/steps/general.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58787167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "The '[class=\"product-container\"]' element is visible more than '5' times",
+            "match": {
+              "location": "support/steps/general.ts:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9066958
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 266910042
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@QA-01",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "privathaftpflicht-calculator-and-tariff-search;load-multiple-tariff-result-pages",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Load multiple tariff result pages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4156827958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the base url",
+            "match": {
+              "location": "support/steps/general.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1702094708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I wait for '2000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2001718040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I hover on the '#uc-btn-accept-banner' element",
+            "match": {
+              "location": "support/steps/general.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39344458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the '#uc-btn-accept-banner' element",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104970082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I wait for '2000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000099707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I open the url 'privathaftpflicht/'",
+            "match": {
+              "location": "support/steps/general.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671636290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I wait for '1000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001429791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I enter '29' in input field '[name=\"age\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 315164499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I click on the '.calculator-form [type=\"submit\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72198415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I wait until '[class=\"layout-column\"]' element is visible",
+            "match": {
+              "location": "support/steps/general.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1567637208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "The '[class=\"layout-column\"]' element is visible in viewport",
+            "match": {
+              "location": "support/steps/general.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19112583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I enter '09.01.1994' in input field '[placeholder=\"TT.MM.JJJJ\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1173105083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I enter '13088' in input field '#prestep_postcode' element",
+            "match": {
+              "location": "support/steps/general.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 677570583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I wait for '1000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001312124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I click on the '[class=\"button\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107416625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I wait for the page navigation to finish",
+            "match": {
+              "location": "support/steps/general.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27455458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I wait until '[class=\"product-container\"]' element is visible",
+            "match": {
+              "location": "support/steps/general.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13898449459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "The '[class=\"product-container\"]' element is visible in viewport",
+            "match": {
+              "location": "support/steps/general.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73170542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I scroll to the '[class=\"more-products-button-wrapper\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1505792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I wait for '1000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001144832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "The '[class=\"more-products-button-wrapper\"]' element is visible in viewport",
+            "match": {
+              "location": "support/steps/general.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11149708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "I get the totall tariffs 'filtered-products-hint span'",
+            "match": {
+              "location": "support/steps/general.ts:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9012291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "The '.product-list product' element is visible '20' times",
+            "match": {
+              "location": "support/steps/general.ts:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11831416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I can continue to load tariffs 'more-products-button span'",
+            "match": {
+              "location": "support/steps/general.ts:147"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9615999166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "The '.product-list product' element is visible 'countTariffs' times",
+            "match": {
+              "location": "support/steps/general.ts:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34101541
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 204441833
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@QA-02",
+            "line": 28
+          },
+          {
+            "name": "@only",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "privathaftpflicht-calculator-and-tariff-search;verify-offer-details-for-a-selected-tariff",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Verify offer details for a selected tariff",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4137155042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the base url",
+            "match": {
+              "location": "support/steps/general.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1336571084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I wait for '2000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000925875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I hover on the '#uc-btn-accept-banner' element",
+            "match": {
+              "location": "support/steps/general.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26427332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on the '#uc-btn-accept-banner' element",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99588332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I wait for '2000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2001094833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "I open the url 'privathaftpflicht/'",
+            "match": {
+              "location": "support/steps/general.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 443223999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "I wait for '1000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001243749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "I enter '29' in input field '[name=\"age\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304107249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "I click on the '.calculator-form [type=\"submit\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59808959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I wait until '[class=\"layout-column\"]' element is visible",
+            "match": {
+              "location": "support/steps/general.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1638499416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "The '[class=\"layout-column\"]' element is visible in viewport",
+            "match": {
+              "location": "support/steps/general.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18209624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I enter '09.01.1994' in input field '[placeholder=\"TT.MM.JJJJ\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1137668415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I enter '13088' in input field '#prestep_postcode' element",
+            "match": {
+              "location": "support/steps/general.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 663398792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "I wait for '1000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1001576999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "I click on the '[class=\"button\"]' element",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81220124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "I wait for the page navigation to finish",
+            "match": {
+              "location": "support/steps/general.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25062832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "I wait until '[class=\"product-container\"]' element is visible",
+            "match": {
+              "location": "support/steps/general.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14805903249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "The '[class=\"product-container\"]' element is visible in viewport",
+            "match": {
+              "location": "support/steps/general.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60987791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "The '[class=\"price\"]' element is visible in viewport",
+            "match": {
+              "location": "support/steps/general.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13469708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "I click on the '[class=\"button-toggle\"]' element by index 1",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69094124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "I wait for '2000' Milliseconds",
+            "match": {
+              "location": "support/steps/general.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000541833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "The text value of element '[class=\"navigation\"] li[class='active']' includes 'Wich­tigs­te Leis­tun­gen'",
+            "match": {
+              "location": "support/steps/general.ts:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18163582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 72,
+            "name": "I click on the '[class=\"navigation\"] li' element by index 2",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199425874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "The text value of element '[class=\"navigation\"] li[class='active']' includes 'All­ge­mein'",
+            "match": {
+              "location": "support/steps/general.ts:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11398209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "I click on the '[class=\"navigation\"] li' element by index 3",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90911916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "The text value of element '[class=\"navigation\"] li[class='active']' includes 'Tä­tig­kei­ten und Hob­bys'",
+            "match": {
+              "location": "support/steps/general.ts:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70085542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 76,
+            "name": "I click on the '[class=\"navigation\"] li' element by index 4",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122419165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "The text value of element '[class=\"navigation\"] li[class='active']' includes 'Miete & Im­mo­bi­li­en'",
+            "match": {
+              "location": "support/steps/general.ts:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15018791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "I click on the '[class=\"navigation\"] li' element by index 5",
+            "match": {
+              "location": "support/steps/general.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53269333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "The text value of element '[class=\"navigation\"] li[class='active']' includes 'Do­kumen­te'",
+            "match": {
+              "location": "support/steps/general.ts:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113477874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "The '.product-group-action [class=\"cta\"] button:nth-child(2)' element is visible in viewport",
+            "match": {
+              "location": "support/steps/general.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14082834
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 295160790
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@QA-03",
+            "line": 52
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "privathaftpflicht-calculator-and-tariff-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Privathaftpflicht calculator and tariff search",
+    "tags": [],
+    "uri": "features/general.feature"
+  }
+]
